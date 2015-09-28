@@ -95,20 +95,119 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+a,
+a:visited {
+   text-decoration: underline;
+   color: #E7B909;
+}
 
+/* Add additional classes for CSS styling */
+.intro {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
+.hello {
+  color: #E7B909;
+  font-family: "Oswald";
+  font-size: 65px;
+  text-transform: uppercase;
+}
 
+.subhello {
+  color: white;
+  font-family: "danielbd";
+  font-size: 20px;
+  opacity: .9;
+}
 
+.mainImage {
+    background: url(../assets/bg-all-dim-46percent-min.jpg) no-repeat center top; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 
+    background-position: absolute;
+    height: 420px;
 
+}
 
+.midPage {
+  background-position: absolute;
+  height: 500px;
+  background: #323232 none repeat center top;
+}
 
+.aboutMe {
+  background-position: absolute;
+  height: 500px;
+  font-family: marriweather;
+}
 
+.aboutMeContain {
+  padding: 20px 20px 20px 20px;
+}
 
+.midPageContain {
+  text-align: center;
+  position: relative;
+  top: 15%;
+  transform: translateY(-15%);
+}
 
+#profilePicture {
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  position: relative;
+}
 
+.midPageItem {
+  margin: 10px 10px 10px 10px;
+  width: 350px;
+  color: #FFF;
+  display: inline-block;
+}
 
+.itemTitle 
+{
+  font-family: oswald;
+  text-transform: uppercase;
+  padding: 20px 0px 20px 0px;
+  color: #E7B909;
+}
 
+#footer {
+    position:fixed;
+    bottom:0;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+    color: grey;
+}
+
+#sectionTitle {
+  padding: 25px 0px 25px 0px;
+  transform: translateX(10%);
+  width: 90%;
+  font-family: oswald;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #E7B909;
+}
+
+span.line {
+    height: 1.5px;
+    width: 100px;
+    position: relative;
+    top: -5px;
+    display: inline-block;
+    float: none;
+    background: #FFF none repeat scroll 0% 0%;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+  }
 
 
 /* ==========================================================================
@@ -293,6 +392,21 @@ textarea {
 @font-face {
     font-family: danielbk;
     src: url('../font/daniel/danielbk.ttf');
+}
+
+@font-face {
+    font-family: oswald;
+    src: url('../font/oswald/oswald-regular.ttf');
+}
+
+@font-face {
+    font-family: oswaldlt;
+    src: url('../font/oswald/oswald-light.ttf');
+}
+
+@font-face {
+    font-family: merriweather;
+    src: url('../font/merriweather/merriweather-regular.ttf');
 }
 
 

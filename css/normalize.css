@@ -422,33 +422,3 @@ td,
 th {
   padding: 0;
 }
-
-/* Add additional classes for CSS styling */
-.intro {
-  color: white;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.hello {
-  font-family: "danielbd";
-  font-size: 65px;
-}
-
-.subhello {
-  font-family: "danielbd";
-  font-size: 20px;
-}
-
-.mainImage {
-    background: url(../assets/bg-all-dim-56percent.jpg) no-repeat center top; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-
-    background-position: absolute;
-    height: 400px;
-}
