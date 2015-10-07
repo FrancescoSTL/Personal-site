@@ -1,0 +1,133 @@
+/* Add additional classes for CSS styling */
+.intro {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hello {
+  color: #E7B909;
+  font-family: "Oswald";
+  font-size: 65px;
+  text-transform: uppercase;
+}
+
+.subhello {
+  color: white;
+  font-family: "danielbd";
+  font-size: 20px;
+  opacity: .9;
+}
+
+.mainImage {
+    background: url(../assets/bg-all-dim-46percent-min.jpg) no-repeat center top; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+    background-position: absolute;
+    height: 420px;
+
+}
+
+.midPage {
+  background-position: absolute;
+  height: 500px;
+  background: #323232 none repeat center top;
+}
+
+.aboutMe {
+  background-position: absolute;
+  padding-bottom: 30px;
+}
+
+.aboutMeContain {
+  padding: 20px 20px 20px 20px;
+}
+
+.midPageContain {
+  text-align: center;
+  position: relative;
+  top: 15%;
+  transform: translateY(-15%);
+}
+
+#profilePicture {
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+  position: relative;
+}
+
+.midPageItem {
+  margin: 10px 10px 10px 10px;
+  width: 300px;
+  color: #FFF;
+  display: inline-block;
+}
+
+.itemTitle 
+{
+  font-family: oswald;
+  text-transform: uppercase;
+  padding: 20px 0px 20px 0px;
+  color: white;
+}
+
+.menu
+{
+  padding: 20px 20px 20px 20px;
+  text-align: right;
+}
+
+.menuItem
+{
+  font-family: oswald;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 10px 0px 10px;
+  opacity: .7;
+  display: inline-block;
+}
+.menuItem, a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer {
+    position: fixed;
+    bottom:0;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+    color: grey;
+}
+
+#sectionTitle {
+  padding: 25px 0px 25px 0px;
+  transform: translateX(10%);
+  width: 90%;
+  font-family: oswald;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #E7B909;
+}
+
+#aboutMeDescription {
+  transform: translateX(20%);
+  width:70%;
+  font-family: merriweather;
+  padding: 20px 0px 10px 0px;
+}
+
+span.line {
+    height: 1.5px;
+    width: 100px;
+    position: relative;
+    top: -5px;
+    display: inline-block;
+    float: none;
+    background: #FFF none repeat scroll 0% 0%;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+  }

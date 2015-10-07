@@ -3,13 +3,9 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    Francesco Polizzi -- @FrancescoSTL -- St. Louis, Missouri
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Javascript, HTM5 Boilerplate: jQuery, Modernizr, Normalize.css
