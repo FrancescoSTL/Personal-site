@@ -4,26 +4,30 @@
 	<link rel="stylesheet" href="css/main.css" type="text/css" />
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" />
 	<link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 
 	<body>
 		<div class="mainImage">
 			<div class="menu">
 				<div class="menuItem">
-					<a href="#">Home</a>
+					<a href="./index.html">Home</a>
 				</div>
 				<div class="menuItem">
-					<a href="#">Projects</a>
+					<a href="#projects">Projects</a>
 				</div>
 				<div class="menuItem">
-					<a href="#">Resume	</a>
+					<a href="./Resume 8:2.pdf">Resume	</a>
 				</div>			
 				<div class="menuItem">				
 					<a href="#">Contact</a>
 				</div>
 			</div>
 			<div class="intro">
+				<div id="profilePicture">
+					<img style="text-align: center; width: 200px; height: auto;" src="assets/profileGrey.png"/>
+				</div>
 				<div class="hello">
-					Hi, I'm Francesco,
+					Hi, I'm Francesco.
 				</div>
 				<div class="subhello">
 					<span class="line"></span>
@@ -32,42 +36,50 @@
 				</div>
 			</div>
 		</div>
-		<div class="aboutMe">
-			<div class="aboutMeContain">
-				<div id="sectionTitle">
-					About Me
-				</div>
-				<div id="profilePicture">
-					<img src="assets/profileGrey.png"/>
-				</div>
-				<div id="aboutMeDescription">
-					Growth Engineering Intern at Mozilla, BS Computer Science candidate and leader at Lindenwood University, and a software developer transcending the boundaries between business and technology.
-				</div>
-			</div>
-		</div>
-		<div class="midPage">
-			<div class="midPageContain">
-				<div class="midPageItem">
-					<div class="itemTitle">
+		<div class="bottomContainer">
+			<div class="aboutMe">
+				<div class="aboutMeContain" id="projects">
+					<div id="sectionTitle">
 						Projects
 					</div>
-
-				</div>
-				<div class="midPageItem">
-					<div class="itemTitle">
-						Resume
+					<div class="projectContain">
+						<div class="row">
+							<a style="display:block" href="./permacc" >
+								<div class="col-md-3"><img src="img/gallery.jpg" >
+							  		<p style="font-family: oswald; font-size:25px">PermaCC++</p>
+							  		<p>1st in Govt. & Finance
+							  		<br>Harvard University</p>
+							  	</div>
+							</a>
+							<a style="display:block" href="./AMO" >
+								<div class="col-md-3"><img src="img/AMO.png" >
+								  	<p style="font-family: oswald; font-size:25px">AMO Reset</p>
+								  	<p>Firefox Growth
+								  	<br>Mozilla Corporation</p>
+								</div>
+							</a>
+							<a style="display:block" href="./Bakery" >
+								<div class="col-md-3"><img src="img/bakerysmall.png" >
+								  	<p style="font-family: oswald; font-size:25px">Bakery</p>
+								  	<p>Firefox Growth
+								  	<br>Mozilla Corporation</p>
+								</div>
+							</a>
+							<a style="display:block" href="./Fedup" >
+								<div class="col-md-3"><img src="img/fedup.png" >
+								  	<p style="font-family: oswald; font-size:25px">FedUp</p>
+								  	<p>DropBox API Prize Winner
+								  	<br>University of Waterloo</p>
+								</div>
+							</a>
+						</div>
 					</div>
 				</div>
-				<div class="midPageItem">
-					<div class="itemTitle">
-						Contact
-					</div>
-				</div>
-			</div
-		</div>
-
-		<div id="footer">
-			Developed by Francesco Polizzi // <a href="https://github.com/FrancescoSTL/Personal-site">Fork this website on Github.</a>
+			</div>
+			
+			<div id="footer">
+				Developed by Francesco Polizzi // <a style="color: gray;" href="https://github.com/FrancescoSTL/Personal-site">Fork this website on Github.</a>
+			</div>
 		</div>
 	</body>
 </html>

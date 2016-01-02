@@ -1,9 +1,34 @@
-/* Add additional classes for CSS styling */
+/* Additional classes for CSS styling */
 .intro {
   text-align: center;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-20%);
+    -webkit-animation: bummer 1.5s;
+    animation: bummer 1.5s;
+    -webkit-transform: scale(0,0); 
+    transform: scale(0,0);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes bummer {
+    0% {
+        opacity:0;
+    }
+    100% {
+        -webkit-transform: scale(1,1); 
+        opacity:1;
+    }
+}
+
+@keyframes bummer {
+    0% {
+        opacity:0;
+    }
+    100% {
+        transform: scale(1,1); 
+        opacity:1;
+    }
 }
 
 .hello {
@@ -29,7 +54,6 @@
 
     background-position: absolute;
     height: 420px;
-
 }
 
 .midPage {
@@ -43,10 +67,65 @@
   padding-bottom: 30px;
 }
 
+.bottomContainer {
+    -moz-animation-name: easeLower;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-duration: 1.5s;
+
+    -webkit-animation-name: easeLower;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-duration: 1.5s;
+
+    animation-name: easeLower;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 1.5s;
+}
+
+@-moz-keyframes easeLower {
+    0% {
+        -moz-transform: translateY(400px);
+        opacity:0;
+    }
+    100% {
+        -moz-transform: translateY(0);
+        opacity:1;
+    }
+}
+@-webkit-keyframes easeLower {
+    0% {
+        -webkit-transform: translateY(400px);
+        opacity:0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        opacity:1;
+    }
+}
+@keyframes easeLower {
+    0% {
+        transform: translateY(400px);
+        opacity:0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity:1;
+    }
+}
+}
+
 .aboutMeContain {
   padding: 20px 20px 20px 20px;
 }
 
+.projectContain {
+  text-align: center;
+  position: relative;
+  top: 15%;
+  transform: translateY(-15%);
+}
 .midPageContain {
   text-align: center;
   position: relative;
@@ -55,9 +134,8 @@
 }
 
 #profilePicture {
-  padding: 0px 0px 20px 0px;
   text-align: center;
-  position: relative;
+
 }
 
 .midPageItem {
@@ -66,6 +144,29 @@
   color: #FFF;
   display: inline-block;
 }
+
+.projectItem {
+  margin: 10px 10px 10px 10px;
+  width: 300px;
+  color: #FFF;
+  display: inline-block;
+}
+
+.projectPicture, img{
+  text-align: center;
+  width: 290px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.projectItemTitle 
+{
+  font-family: merriweatherlt;
+  padding: 20px 0px 20px 0px;
+  font-size: 20px;
+  color: grey;
+}
+
 
 .itemTitle 
 {
@@ -77,8 +178,54 @@
 
 .menu
 {
-  padding: 20px 20px 20px 20px;
+  padding: 20px 0px 20px 20px;
   text-align: right;
+
+    -moz-animation-name: easeUpper;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-duration: 1.5s;
+
+    -webkit-animation-name: easeUpper;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-duration: 1.5s;
+
+    animation-name: easeUpper;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 1.5s;
+}
+
+@-moz-keyframes easeUpper {
+    0% {
+        -moz-transform: translateY(-50px);
+        opacity:0;
+    }
+    100% {
+        -moz-transform: translateY(0);
+        opacity:1;
+    }
+}
+@-webkit-keyframes easeUpper {
+    0% {
+        -webkit-transform: translateY(-50px);
+        opacity:0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        opacity:1;
+    }
+}
+@keyframes easeUpper {
+    0% {
+        transform: translateY(-50px);
+        opacity:0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity:1;
+    }
 }
 
 .menuItem
@@ -87,11 +234,17 @@
   font-size: 18px;
   text-transform: uppercase;
   padding: 0px 10px 0px 10px;
-  opacity: .7;
+  opacity: 1;
   display: inline-block;
 }
 .menuItem, a {
   text-decoration: none;
+  color: white;
+}
+.menuItem, a:visited {
+  color: white;
+}
+.menuItem, a:hover {
   color: white;
 }
 
@@ -112,6 +265,12 @@
   font-size: 35px;
   text-transform: uppercase;
   color: #E7B909;
+  margin-bottom: 40px;
+}
+
+.workItem {
+    transform: translateX(10%);
+  width: 90%;
 }
 
 #aboutMeDescription {
@@ -119,6 +278,7 @@
   width:70%;
   font-family: merriweather;
   padding: 20px 0px 10px 0px;
+  display:inline-block;
 }
 
 span.line {
