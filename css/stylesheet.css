@@ -1,7 +1,6 @@
 /* Additional classes for CSS styling */
 .intro {
-  text-align: center;
-  position: relative;
+  
   transform: translateY(-20%);
     -webkit-animation: bummer 1.5s;
     animation: bummer 1.5s;
@@ -53,7 +52,6 @@
       background-size: cover;
 
     background-position: absolute;
-    height: 420px;
 }
 
 .midPage {
@@ -125,6 +123,9 @@
   position: relative;
   top: 15%;
   transform: translateY(-15%);
+  width: 80%;
+  left: 10%;
+  right: -50%;
 }
 .midPageContain {
   text-align: center;
@@ -152,7 +153,7 @@
   display: inline-block;
 }
 
-.projectPicture, img{
+.projectPicture {
   text-align: center;
   width: 290px;
   height: 200px;
@@ -249,16 +250,14 @@
 }
 
 #footer {
-    position: fixed;
-    bottom:0;
     font-size: 12px;
     padding: 5px 10px 5px 10px;
     width: 100%;
     color: grey;
 }
 
-#sectionTitle {
-  padding: 25px 0px 25px 0px;
+.sectionTitle {
+  padding-top: 10px;
   transform: translateX(10%);
   width: 90%;
   font-family: oswald;
@@ -283,7 +282,7 @@
 
 span.line {
     height: 1.5px;
-    width: 100px;
+    width: 80px;
     position: relative;
     top: -5px;
     display: inline-block;
